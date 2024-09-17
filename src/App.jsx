@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./App.css";
 import Loader from "./components/Loader.jsx";
-import { projectsData,imageData} from "./assets/data";
+import { projectsData, imageData } from "./assets/data";
 import Particles from "./components/Particles.jsx";
 import Resume from "./assets/Front-end-webDev.pdf";
 
@@ -358,7 +358,9 @@ function App() {
                   >
                     <g id="Group_2">
                       <text x="18" y="30" fill="#D9D9D9" stroke="#D9D9D9">
-                      <a xlinkHref={Resume} target="_blank">Meet</a>
+                        <a xlinkHref={Resume} target="_blank">
+                          Meet
+                        </a>
                       </text>
                       <path
                         id="Vector"
@@ -405,15 +407,12 @@ function App() {
               <div className="c">
                 <div className="hero-text">
                   <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Possimus aspernatur, esse natus, exercitationem, eligendi
-                    accusantium consequuntur ducimus officiis nesciunt nulla
-                    aliquid optio laboriosam perspiciatis maiores. Officiis vel
-                    at error quam? Lorem, ipsum dolor sit amet consectetur
-                    adipisicing elit. Possimus aspernatur, esse natus,
-                    exercitationem, eligendi accusantium consequuntur ducimus
-                    officiis nesciunt nulla aliquid optio laboriosam
-                    perspiciatis maiores. Officiis vel at error quam?
+                    Crafting intuitive and responsive web experiences, a
+                    front-end developer bridges design with functionality. Every
+                    project is a step forward, blending past expertise with a
+                    passion for future innovation and user-focused solutions.
+                    The journey is driven by a commitment to stay ahead,
+                    delivering modern, impactful interfaces.
                   </p>
                 </div>
               </div>
@@ -491,19 +490,15 @@ function App() {
           <section>
             <div className="skills-container">
               <div className="m">
-                  <Particles imageData={imageData}/>
+                <Particles imageData={imageData} />
               </div>
               <div className="n">
                 <p className=".hero-text">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Possimus aspernatur, esse natus, exercitationem, eligendi
-                  accusantium consequuntur ducimus officiis nesciunt nulla
-                  aliquid optio laboriosam perspiciatis maiores. Officiis vel at
-                  error quam? Lorem, ipsum dolor sit amet consectetur
-                  adipisicing elit. Possimus aspernatur, esse natus,
-                  exercitationem, eligendi accusantium consequuntur ducimus
-                  officiis nesciunt nulla aliquid optio laboriosam perspiciatis
-                  maiores. Officiis vel at error quam?
+                  The journey of a front-end developer is fueled by creativity
+                  and a passion for crafting seamless digital experiences. From
+                  transforming ideas into visually engaging interfaces to
+                  optimizing performance, it requires a balance of design and
+                  technical expertise.
                 </p>
               </div>
             </div>
