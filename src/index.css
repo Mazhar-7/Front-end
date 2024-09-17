@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+
+    --family : "Urbanist", sans-serif;
+    --font-color : #D9D9D9;
+     --font-weight-normal : 400;
+     --font-weight-heading : 500;
+     --font-p-size: clamp(1.438rem, 1cqi, 1.438rem);
+     --font-p-size-2: clamp(1.375rem, 1cqi,1.375rem);
+     --font-p-size-3: clamp(1.2rem, 1cqi, 1.2rem);
+     /*  clamp(7.5rem,5.5rem,8.5rem); */
+     --font-heading-size:clamp(7.5rem,5.5rem,8.5rem);   
+     --font-heading-size-2: clamp(80px,80cqi,100px);
+     --font-heading-size-3: clamp(60px,60cqi,80px);
+     --font-heading-size-4: clamp(50px,50cqi,60px);
+     --letter-spacing : -4px;
+     --max-width: 1440px
+
+
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+    background-color: #000000;
+    color: #D9D9D9;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+html, body{
+    overscroll-behavior: none;
+    scroll-behavior: smooth;
+}
+
+
+span,ul,li,a,h1,h2,p,i,svg{
+    background: transparent;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    cursor: none;
+    background: transparent;
+}
+/* section{
+    transition-duration: 50s;
+    transition-timing-function: cubic-bezier(.62,.9,.79,.35);
+    scroll-snap-type: mandatory;
+    scroll-snap-align: start;
+    border: 1px dotted blueviolet;
+} */
