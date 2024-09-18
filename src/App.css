@@ -274,9 +274,10 @@ svg:hover  #Vector_2{
   grid-column-gap: 0px;
   place-items: center;
   width: 100%;
-  height: 360vh;
+  height: 400vh;
   background: transparent;
   margin-top: 2rem;
+  border: 1px solid blue;
 }
 .e {
   grid-column-start: 1;
@@ -319,13 +320,16 @@ svg:hover  #Vector_2{
   font-family: var(--family);
   background: transparent;
   position: relative;
+  border: 1px solid yellow;
 }
 
 #image {
   max-width: calc(100%);
-  margin-bottom: 7rem;
+  max-height: 100vh;
+  margin-bottom: 8rem;
   position: sticky;
   top: 10%;
+  border: 1px solid yellow;
   background: transparent;
 }
 #image img {
@@ -395,23 +399,6 @@ svg:hover  #Vector_2{
   transform: scale(1)  rotate(45deg);
 }
 
-@keyframes image1-animation {
-  0% {
-    transform: translate3d(0, 0, 0);
-    opacity: 1;
-  }
-  50% {
-    transform: translate3d(0, -70%, -100px);
-  }
-  100% {
-    transform: translate3d(
-      0,
-      -70%,
-      -300px
-    ); /* move down on Y axis and back on Z axis */
-    opacity: 1;
-  }
-}
 
 /* ================= Circle Section =============================================================== */
 /* ================= Circle Section =============================================================== */
@@ -495,11 +482,6 @@ svg:hover  #Vector_2{
   align-items: center;
 }
 
-.svg-class{
-  position: absolute;
-  transition: .2s ease;
-  will-change: transform;
-}
 .n{
   grid-column-start: 2;
   grid-column-end: 4;
@@ -693,7 +675,8 @@ svg:hover  #Vector_2{
     font-size: var(--font-heading-size-4);
   }
   #image {
-    width: calc(150%);
+    max-width: 150%;
+    top: 20%;
   }
   .footer-links {
     justify-content: space-between;

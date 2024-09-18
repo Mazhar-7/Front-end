@@ -3,11 +3,9 @@
 }
 #canvas0,#canvas1,#canvas2,#canvas3{
     background: transparent;
-    border: 1px solid green;
     border-radius: 100%;
     width: 22vw;
     height: 22vw;
-
 }
 .icon{
     width: 22vw;
