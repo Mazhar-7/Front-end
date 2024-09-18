@@ -277,7 +277,6 @@ svg:hover  #Vector_2{
   height: 400vh;
   background: transparent;
   margin-top: 2rem;
-  border: 1px solid blue;
 }
 .e {
   grid-column-start: 1;
@@ -320,7 +319,6 @@ svg:hover  #Vector_2{
   font-family: var(--family);
   background: transparent;
   position: relative;
-  border: 1px solid yellow;
 }
 
 #image {
@@ -329,7 +327,6 @@ svg:hover  #Vector_2{
   margin-bottom: 8rem;
   position: sticky;
   top: 10%;
-  border: 1px solid yellow;
   background: transparent;
 }
 #image img {
