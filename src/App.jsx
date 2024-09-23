@@ -6,8 +6,7 @@ import Particles from "./components/Particles.jsx";
 import Resume from "./assets/Front-end-webDev.pdf";
 
 function App() {
-  const [imageScale, setImageScale] = useState({ 0: 0, 1: 0, 2: 0 });
-  console.log(`this is state  value for  value:${imageScale}`);
+  const [imageScale, setImageScale] = useState({ 0: 1, 1: 1, 2: 1 });
   const [textReveals, setTextReveals] = useState([]);
   const [loading, setLoading] = useState(true);
   const [click, setClick] = useState(false);
@@ -127,18 +126,17 @@ function App() {
     if (!loading) {
       function scrollImage() {
         const projectContainerTop = document
-          .querySelector(".f")
+          .querySelector(".project-container")
           .getBoundingClientRect().top;
         const imageElements = document.querySelectorAll("#image");
         imageElements.forEach((image, index) => {
           if (image.parentElement.getBoundingClientRect().top <= 1) {
             let offset =
               (projectContainerTop + window.innerHeight * index) * 0.0005;
-              console.log(`this is offset value for index ${index}, value:${offset}`);
             offset = offset < -1 ? -1 : offset >= 0 ? 0 : offset;
             setImageScale((prevScale) => ({
               ...prevScale,
-              [index]: 1+offset ,
+              [index]: 1.005+offset ,
             }));
           }
         });

@@ -17,9 +17,6 @@
      --font-heading-size-4: clamp(50px,50cqi,60px);
      --letter-spacing : -4px;
      --max-width: 1440px
-
-
-
 }
 
 
@@ -50,10 +47,3 @@ a{
     cursor: none;
     background: transparent;
 }
-/* section{
-    transition-duration: 50s;
-    transition-timing-function: cubic-bezier(.62,.9,.79,.35);
-    scroll-snap-type: mandatory;
-    scroll-snap-align: start;
-    border: 1px dotted blueviolet;
-} */
